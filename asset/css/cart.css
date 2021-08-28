@@ -1,0 +1,40 @@
+/* Section 1 Styling Start */
+table{
+    text-align: center;
+}
+table td{
+    height: 100px;
+}
+tr .image{
+    min-width: 120px;
+}
+th{
+    min-width: 100px !important;
+}
+.button{
+    min-width: 250px !important;
+}
+td > i{
+    cursor: pointer;
+}
+.name{
+    min-width: 250px !important;
+}
+.pimgdiv{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.pimgdiv img{
+    height: 100%;
+}
+.tabledata{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 1 Styling End */

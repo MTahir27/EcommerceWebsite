@@ -1,0 +1,25 @@
+/* Side Bar Code Start */
+.subproduct{
+    display: flex;
+}
+.subproductimg{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.subproductimg img{
+    height: 100%;
+}
+.sblogdetail > .name{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.sblogdetail > .name:hover{
+    color: var(--primarycolor) !important;
+}
+.sblogdetail p{
+    color: var(--primarycolor);
+}
+/* Side bar Code ENd */

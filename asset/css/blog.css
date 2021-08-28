@@ -1,0 +1,112 @@
+/* Section 1 Styling Start */
+
+
+/* Side bar Styling Start */
+.subblog{
+    display: flex;
+}
+.sblogimg{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.sblogimg img{
+    height: 100%;
+}
+.sblogdetail > .name{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.sblogdetail > .name:hover{
+    color: var(--primarycolor) !important;
+}
+.sblogdetail p{
+    color: var(--primarycolor);
+}
+
+.tag{
+    padding: 5px 10px;
+    color: var(--black);
+    border: 1px solid var(--black);
+    line-height: 40px;
+    transition: .5s all;
+}
+.tag:hover{
+    background-color: var(--primarycolor) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--primarycolor);
+}
+/* Side bar Styling End */
+
+.blogimgdiv{
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.blogimgdiv img{
+    width: 100%;
+    transition: 1s all;
+}
+.blogimgdiv:hover img{
+    width: 110%;
+}
+
+.date{
+    background-color: var(--gray);
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+.date > h3{
+    font-weight: bold;
+}
+.date p{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px; 
+}
+
+.blogdetail{
+    text-align: center;
+    padding: 20px;
+}
+.btitle{
+    color: var(--black);
+    font-size: 1.3rem;
+}
+.btitle:hover{
+    color: var(--primarycolor);
+}
+
+
+.blogbutton{
+    color: var(--primarycolor) !important;
+    font-weight: bold;
+}
+.authordetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.authorimg{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.authorimg img{
+    width: 100%;
+}
+
+.author > span{
+    color: var(--primarycolor);
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Section 1 Styling End */

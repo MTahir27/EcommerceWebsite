@@ -1,0 +1,24 @@
+/* Section 2 Styling Start */
+.accordion-item {
+    margin-bottom: 30px;
+    border: none !important;
+    
+}
+.accordion-button:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+.accordion-button{
+    background-color: var(--gray);
+}
+.accordion-button:not(.collapsed) {
+    color: var(--black) !important;
+    background-color: var(--primarycolor) !important;
+    box-shadow: none !important;
+    color: var(--white) !important;
+}
+.accordion-body{
+    background-color: var(--gray) !important;
+}
+
+/* Section 2 STyling End */

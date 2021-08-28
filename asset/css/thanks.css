@@ -1,0 +1,29 @@
+
+.thank{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank > div{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: var(--primarycolor);
+    transform: translateY(20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank > div > h1{
+    text-align: center;
+    color: var(--white) !important;
+}
+.thank .btn{
+    margin-top: 50px;
+    background-color: var(--black) !important;
+}

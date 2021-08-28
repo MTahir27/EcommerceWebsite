@@ -1,0 +1,138 @@
+/* Section 1 Styling Start */
+
+
+/* Side bar Styling Start */
+.list-group .heading{
+    font-weight: bold !important;
+    color: var(--black) !important;
+}
+.list-group .heading:hover{
+    color: var(--black) !important;
+}
+.list-group-item{
+    color: var(--black) !important;
+}
+.list-group-item:hover{
+    color: var(--primarycolor) !important;
+}
+.list-group-item ol{
+    margin-top: 10px;
+}
+.list-group-item li{
+    line-height: 30px;
+    cursor: pointer;
+    color: var(--black) !important;
+}
+.list-group-item li:hover{
+    color: var(--primarycolor) !important;
+}
+
+.tag{
+    padding: 5px 10px;
+    color: var(--black);
+    border: 1px solid var(--black);
+    line-height: 40px;
+    transition: .5s all;
+}
+.tag:hover{
+    background-color: var(--primarycolor) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--primarycolor);
+}
+/* Side bar Styling End */
+
+
+.productdiv{
+    background-color: var(--gray);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Side Icon Start */
+.option{
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    transition: .5s all;
+}
+.productdiv:hover .option{
+    right: 20px;
+}
+.imgdiv{
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv > img{
+    width: auto;
+    max-height: 350px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0 .125rem .25rem var(--shadowblack);
+    margin: 10px auto;
+    color: var(--black);
+}
+.icon:hover > i{
+    color: var(--primarycolor);
+}
+
+/* Side Icon End */
+
+.pdetail{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.star{
+    text-align: center;
+}
+.star > i{
+    cursor: pointer;
+    color: var(--lightgray);
+}
+.star > i:hover{
+    color: var(--orange);
+}
+.pdetail > h6{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px auto 10px auto;
+}
+.price > .oldprice{
+    color: var(--black);
+    margin: 10px 5px;
+}
+
+.price > .newprice{
+    color: var(--primarycolor);
+    font-weight: bold;
+    margin: 10px 5px;
+}
+.cartbtn{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+}
+.cartbtn > .btn{
+    margin: auto;
+}
+.productdiv:hover .cartbtn{
+    top: 10px;
+}
+
+
+/* Section 1 Styling End */

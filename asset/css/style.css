@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+:root{
+    --primarycolor: #552bff;
+    --secondarycolor: #292929;
+    --white: #f2f2f2;
+    --black: #282828;
+    --footercolor: #222222;
+    --gray: #F6F7F9;
+    --shadowblack: #00000025;
+    --orange: #FEC42D;
+    --lightgray: #CCCCCC;
+    --bordercolor: #dee2e6;
+}
+
+a{
+    text-decoration: none;
+}
+
+.primarycolor{
+    color: var(--primarycolor);
+}
+
+.borderbottom{
+    border-bottom: 5px solid var(--primarycolor);
+    width: 50px;
+    height: 1px;
+    margin-bottom: 20px;
+}
+/* Button styling */
+.btn{
+    background-color: var(--primarycolor) !important;
+    color: var(--white) !important;
+    border-radius: 25px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.btn:hover{
+    background-color: var(--secondarycolor) !important;
+    color: var(--white) !important;
+}
+
+
+/* Text Sizing */
+h1{
+    font-size: 3.5rem !important;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2.5rem !important;
+    font-weight: bold;    
+}
+
+
+/* Owl Caurosel Styling Start */
+.owl-theme .owl-dots .owl-dot span{
+    color: var(--gray);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: var(--primarycolor);
+}
+
+
+/* ========== Common Styling Start Here ========== */
+
+/* ========================= Menu Section Start ========================= */
+
+
+/* Index Page Menu Section Start Here */
+.menu{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/background/bg-1.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    color: var(--black);
+}
+/* Index Page Menu Section End Here */
+
+
+/* All Pages Menu Section Start Here */
+.submenu{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to left, rgba(0, 0, 0, .1), rgba( 0, 0, 0,.1)), url("../images/background/bg-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pgheading{
+    color: var(--primarycolor);
+    margin-bottom: 20px;
+}
+.breadcrumb .breadcrumb-item > a{
+    color: var(--black) !important;
+    font-weight: bold;
+}
+.breadcrumb .active{
+    color: var(--primarycolor) !important;
+}
+/* All Pages Menu Section End Here */
+
+
+/* ========================= Menu Section End ========================= */
+
+
+
+/* ========================= Our Services Section Start Here ========================= */
+.service{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--bordercolor);
+    cursor: pointer;
+}
+.service:hover{
+    box-shadow: 0 .5rem 1rem var(--bordercolor);
+}
+.service:hover > i{
+    transform: rotateY(180deg);
+    color: var(--primarycolor);
+} 
+.service > i {
+    font-size: 3rem;
+    transition: .5s all;
+    margin-top: 20px;
+}
+.service > h4{
+    margin: 20px auto;
+    font-weight: bold;
+}
+/* ========================= Our Services Section End Here ========================= */
+
+/* Contant center Styling Start Here*/
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Contant center Styling End Here */
+
+/* Title Styling Start Here */
+.title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* Title Styling End Here  */
+
+/* Form Input STyling Start */
+.btn-check:focus+.btn, .btn:focus,
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: var(--primarycolor) !important;
+}
+.form-select:focus {
+    border-color: var(--primarycolor) !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+input[type="radio"]:checked{
+    background-color: var(--primarycolor);
+}
+input[type="range"]{
+    background-color: var(--primarycolor);
+}
+input[type="radio"]:focus{
+    box-shadow: none !important;
+}
+/* Form Input Styling End */
+
+/* ========================= Pagination Section Styling Start ========================= */
+.page-item.active .page-link {
+    z-index: 3;
+    color: var(--white);
+    background-color: var(--primarycolor) !important;
+    border-color: var(--primarycolor) !important;
+}
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: var(--white) !important;
+    background-color: var(--primarycolor) !important;
+    border-color: var(--primarycolor) !important;
+}
+/* ========================= Pagination Section Styling End ========================= */
+
+
+/* ========================= Newsletter Styling Start Here ========================= */
+.newsletter{
+    background-color: var(--primarycolor);
+    color: var(--white);
+    
+}
+.newstext{
+    display: flex;
+    width: 100%;
+}
+.newstext span > i{
+    font-size: 3rem;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.newsletteremail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.newsletteremail input[type=email]{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.newsletteremail input[type=submit]{
+    border-radius: 0px;
+    padding: 10px;
+    background-color: var(--black) !important;
+}
+.newsletteremail input[type=submit]:hover{
+    background-color: var(--secondarycolor) !important;
+
+}
+/* ========================= Newsletter STyling End Here ========================= */
+
+/* ========== Common Styling End Her ========== */
+
+
+
+
+/* ********** Media Quries ********** */
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    h1{
+        font-size: 3rem !important;
+        font-weight: bolder;
+    }
+    .newsletteremail{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 2.5rem !important;
+        font-weight: bolder;
+    }
+}
+
+
+
+

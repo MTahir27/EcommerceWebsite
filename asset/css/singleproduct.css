@@ -1,0 +1,168 @@
+/* Section 1 Styling Start */
+.xzoom-container{
+    max-width: 400px;
+    margin: auto;
+}
+.zoomimgdiv{
+    max-width: 400px;
+    max-height: 400px;
+}
+.productdetail .pname{
+    margin-top: 20px;
+    color: var(--secondarycolor);
+    cursor: pointer;
+}
+.productdetail .pname:hover{
+    color: var(--primarycolor);
+}
+.productdetail .price{
+    color: var(--primarycolor);
+    font-weight: bold;
+}
+.editreview{
+    cursor: pointer;
+    color: var(--black) !important;
+}
+
+.size label{
+    font-weight: bold;
+     margin-right: 30px;
+}
+.size select{
+    padding: 5px 20px;
+}
+.quantity p{
+    font-weight: bold;
+    margin-right: 30px !important;
+    margin: auto 0px;
+}
+.quantity .button{
+    padding: 7px 20px;
+    background-color: var(--primarycolor) !important;
+    color: var(--white);
+    border: none !important;
+}
+.quantity .button:hover{
+    background-color: var(--black) !important;
+}
+
+
+.wishlist{
+    color: var(--black) !important;
+}
+.wishlist:hover{
+    color: var(--primarycolor) !important;
+}
+/* Section 1 Styling End */
+
+/* Section 2 STyling Start */
+.nav-pills .nav-link{
+    margin: auto 10px;
+    text-transform: uppercase;
+    color: var(--black) !important;
+    border: 1px solid var(--black) !important;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link,
+.nav-pills .nav-link:focus, .nav-pills .nav-link:hover{
+    color: var(--white) !important;
+    background-color: var(--primarycolor) !important;
+    border: 1px solid var(--primarycolor) !important;
+}
+
+
+/* Section 2 Styling End */
+
+/* Section 3 Styling Start */
+.productdiv{
+    background-color: var(--gray);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Side Icon Start */
+.option{
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    transition: .5s all;
+}
+.productdiv:hover .option{
+    right: 20px;
+}
+.imgdiv{
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv > img{
+    width: auto;
+    max-height: 350px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0 .125rem .25rem var(--shadowblack);
+    margin: 10px auto;
+    color: var(--black);
+}
+.icon:hover > i{
+    color: var(--primarycolor);
+}
+
+/* Side Icon End */
+
+.pdetail{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.star{
+    text-align: center;
+}
+.star > i{
+    cursor: pointer;
+    color: var(--lightgray);
+}
+.star > i:hover{
+    color: var(--orange);
+}
+.pdetail > h6{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px auto 10px auto;
+}
+.price > .oldprice{
+    color: var(--black);
+    margin: 10px 5px;
+}
+
+.price > .newprice{
+    color: var(--primarycolor);
+    font-weight: bold;
+    margin: 10px 5px;
+}
+.cartbtn{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+}
+.cartbtn > .btn{
+    margin: auto;
+}
+.productdiv:hover .cartbtn{
+    top: 10px;
+}
+/* Section 3 styling End */

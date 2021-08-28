@@ -1,0 +1,94 @@
+/* Website Logo */
+.navbar-brand{
+    margin-left: 2rem;
+}
+.logo{
+    width: 75px;
+}
+
+
+/* Navbar Styling Start */
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--primarycolor);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--black);
+    margin: auto 10px;
+}
+
+
+/* Navbar Dropdown Styling Start */
+
+/* .dropdown:hover > .dropdown-menu{
+    display: block;
+} */
+
+/* Dropdown on Hover */
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+
+@media (min-width: 992px) {
+
+    .dropend{
+        position: relative;
+    }
+    .dropend:hover .dropdown-menu{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        
+    }
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: var(--primarycolor) !important;
+    color: var(--white) !important;
+}
+
+
+
+
+/* Navbar Dropdown Styling End */
+
+
+
+/* Navbar Icons Styling Start */
+.navicons{
+    display: flex;
+    margin-right: 50px;
+}
+.navicons i{
+    color: var(--black);
+    font-size: 1.3rem;
+    margin: auto 5px;
+}
+.navicons i:hover{
+    color: var(--primarycolor);
+}
+.navbaricon{
+    margin-left: 20px;
+}
+.badge{
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    background-color: var(--primarycolor);
+}
+
+/* Navbar Icon Styling End */
+
+.navmargin{
+    width: 100%;
+    height: 80px;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */

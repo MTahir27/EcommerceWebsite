@@ -1,0 +1,262 @@
+/* Section 2 Start Here */
+.faq{
+    /* height: 400px; */
+    background-image: url('../images/background/bg-2.png');
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.faqquestion > p{
+    padding: 20px auto;
+    color: var(--black);
+    font-weight: bold;
+    border-bottom: 1px solid var(--black);
+}
+/* Section 2 End Here */
+
+/* Section 3 Styling Start Here */
+.productdiv{
+    background-color: var(--gray);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Side Icon Start */
+.option{
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    transition: .5s all;
+}
+.productdiv:hover .option{
+    right: 20px;
+}
+.imgdiv{
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv > img{
+    width: auto;
+    max-height: 350px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0 .125rem .25rem var(--shadowblack);
+    margin: 10px auto;
+    color: var(--black);
+}
+.icon:hover > i{
+    color: var(--primarycolor);
+}
+
+/* Side Icon End */
+
+.pdetail{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.star{
+    text-align: center;
+}
+.star > i{
+    cursor: pointer;
+    color: var(--lightgray);
+}
+.star > i:hover{
+    color: var(--orange);
+}
+.pdetail > h6{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px auto 10px auto;
+}
+.price > .oldprice{
+    color: var(--black);
+    margin: 10px 5px;
+}
+
+.price > .newprice{
+    color: var(--primarycolor);
+    font-weight: bold;
+    margin: 10px 5px;
+}
+.cartbtn{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+}
+.cartbtn > .btn{
+    margin: auto;
+}
+.productdiv:hover .cartbtn{
+    top: 10px;
+}
+
+/* Section 3 Styling ENd Here */
+
+
+/* Section 4 Styling Start Here */
+.features{
+    text-align: center;
+    transition: .5s;
+    
+}
+.features:hover > i {
+    transform: rotate(i20deg);
+}
+.features > i{
+    color: var(--primarycolor);
+    font-size: 3rem;
+    transition: .5s;
+}
+.features > h4{
+    font-weight: bold;
+    margin: 10px;
+    color: var(--primarycolor);
+}
+/* Section 4 Styling End Here */
+
+/* Section 6 Styling Start Here */
+.testimonial{
+    text-align: center;
+    background-color: var(--white);
+    padding: 30px;
+    cursor: grab;
+}
+.testimonial .cimgdiv{
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonial .cimgdiv img{
+    width: 100%;
+}
+.testimonial .name{
+    font-weight: bold;
+}
+
+
+/* Section 6 Styling ENd */
+
+
+/* Section 7 Styling Start */
+.partnerdiv{
+    width: 100px;
+    margin: auto;
+
+}
+.partnerdiv img{
+    width: 100%;
+}
+
+/* Section 7 Styling ENd */
+
+/* Section 8 Styling Start Here */
+.blogimgdiv{
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.blogimgdiv img{
+    width: 100%;
+    transition: 1s all;
+}
+.blogimgdiv:hover img{
+    width: 110%;
+}
+
+.date{
+    background-color: var(--gray);
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+.date > h3{
+    font-weight: bold;
+}
+.date p{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0px; 
+}
+.blogdetail{
+    text-align: center;
+    padding: 20px;
+}
+.btitle{
+    color: var(--black);
+    font-size: 1.3rem;
+}
+.btitle:hover{
+    color: var(--primarycolor);
+}
+
+
+.blogbutton{
+    color: var(--primarycolor) !important;
+    font-weight: bold;
+}
+
+/* Section 8 Styling End Here */
+
+
+
+
+
+
+/* ********** Media Quries ********** */
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) { 
+    /* Main Menu Styling Start */
+    menu{
+        width: 100%;
+        height: 600px;
+    }
+    /* Main Menu Styling End */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+    /* Main Menu Styling Start */
+    menu{
+        width: 100%;
+        height: 500px;
+    }
+    /* Main Menu Styling End */
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* Main Menu Styling Start */
+    menu{
+        width: 100%;
+        height: 400px;
+    }
+    /* Main Menu Styling End */
+}
+

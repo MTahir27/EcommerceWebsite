@@ -1,0 +1,82 @@
+/* Section 1 Styling Start */
+
+
+/* Side bar Styling Start */
+.subblog{
+    display: flex;
+}
+.sblogimg{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.sblogimg img{
+    height: 100%;
+}
+.sblogdetail > .name{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.sblogdetail > .name:hover{
+    color: var(--primarycolor) !important;
+}
+.sblogdetail p{
+    color: var(--primarycolor);
+}
+
+.tag{
+    padding: 5px 10px;
+    color: var(--black);
+    border: 1px solid var(--black);
+    line-height: 40px;
+    transition: .5s all;
+}
+.tag:hover{
+    background-color: var(--primarycolor) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--primarycolor);
+}
+/* Side bar Styling End */
+.bname{
+    font-weight: bold;
+    margin: 30px auto;
+}
+.bsdetail{
+    display: flex;
+}
+.bsdetail p{
+    margin-right: 20px;
+}
+.bsdetail p > span{
+    color: var(--primarycolor);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Comment Styling Start Here */
+.commentimgdiv{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.commentimgdiv img{
+    width: 100%;
+}
+.commentdetail h4{
+    color: var(--black);
+    font-weight: bold;
+}
+.commentdetail .date{
+    color: var(--black);
+}
+.commentdetail .date > span{
+    color: var(--primarycolor);
+    cursor: pointer;
+}
+/* Comment Styling End Here */
+
+/* Section 1 Styling End */
